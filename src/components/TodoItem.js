@@ -2,9 +2,8 @@ import { MdCheckBoxOutlineBlank, MdRemoveCircleOutline } from 'react-icons/md';
 import './TodoItem.css';
 
 // 각 Todo 항목에 대한 정보를 보여주는 컴포넌트
-const TodoItem = function ({todo}) {
+const TodoItem = function ( {todo} ) {
     const {id, title, complete} = todo;
-    console.log("나 호출됐다..");
     console.log(id, title, complete);
     return (
         <div className='TodoItem'>
